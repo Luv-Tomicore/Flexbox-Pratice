@@ -18,21 +18,10 @@
     height: 100%;
     display: -moz-grid;
     display: grid;
-    grid-template-columns: repeat(3,auto-fit,4
-     minmax(150px, 1fr));
-    grid-template-rows: repeat(2,auto-fit, 1fr);
+    grid-auto-rows: 250px;
+    grid-auto-columns: 250px;
+    grid-auto-flow: column;
     gap:20px;
-    }
-    #gall
-    {
-    padding:50px 50px 50px 50px;
-    width: 100%;
-    height: 100%;
-    display: -moz-grid;
-    display: grid;
-    gap:20px;
-    grid-template-columns: repeat(3,minmax(150px, 1fr));
-    grid-template-rows: repeat(2, 1fr);
     }
     a{
         width: 100%;
@@ -41,6 +30,7 @@
     img{
         width: 100%;
         height: 100%;
+        border: 5px solid orange;
     }
     </style>
 </head>
@@ -49,44 +39,6 @@
     <h1>Photo Gallery</h1>
     </header>
     <div id="gallery">
-        <a href="https://cdn.loveandlemons.com/wp-content/uploads/2021/06/summer-desserts.jpg">
-            <img src="https://cdn.loveandlemons.com/wp-content/uploads/2021/06/summer-desserts.jpg" />
-        </a>
-        <a href="https://www.onceuponachef.com/images/2019/04/Chocolate-Mousse-1200x1500.jpg">
-            <img src="https://www.onceuponachef.com/images/2019/04/Chocolate-Mousse-1200x1500.jpg" />
-        </a>
-        <a href="https://insanelygoodrecipes.com/wp-content/uploads/2021/01/White-Chocolate-Oreo-Cookie-Balls.png">
-            <img src="https://insanelygoodrecipes.com/wp-content/uploads/2021/01/White-Chocolate-Oreo-Cookie-Balls.png" />
-        </a>
-        <a href="https://assets.tastemadecdn.net/images/122c16/0148c84ddaa654e1b589/3ef006.png">
-            <img src="https://assets.tastemadecdn.net/images/122c16/0148c84ddaa654e1b589/3ef006.png" />
-        </a>
-        <a href="https://kyleecooks.com/wp-content/uploads/2019/01/Oreo-Dirt-Pudding-29.jpg">
-            <img src="https://kyleecooks.com/wp-content/uploads/2019/01/Oreo-Dirt-Pudding-29.jpg" />
-        </a>
-        <a href="https://1.bp.blogspot.com/-0XtE0a-MFqo/T2-avwAvlPI/AAAAAAAAC5I/Xl8tPCD02vc/s1600/Banana+caramel+cream+mini+dessert.jpg">
-            <img src="https://1.bp.blogspot.com/-0XtE0a-MFqo/T2-avwAvlPI/AAAAAAAAC5I/Xl8tPCD02vc/s1600/Banana+caramel+cream+mini+dessert.jpg" />
-        </a>
-        <a href="https://chocolatecoveredkatie.com/wp-content/uploads/2023/06/Strawberry-Mousse-Recipe-jpg.webp">
-            <img src="https://chocolatecoveredkatie.com/wp-content/uploads/2023/06/Strawberry-Mousse-Recipe-jpg.webp" />
-        </a>
-        <a href="https://amandascookin.com/wp-content/uploads/2021/03/Pineapple-Dream-Dessert-RC.jpg">
-            <img src="https://amandascookin.com/wp-content/uploads/2021/03/Pineapple-Dream-Dessert-RC.jpg" />
-        </a>
-        <a href="https://hips.hearstapps.com/hmg-prod/images/easy-no-bake-desserts-oreo-pie-645d1a6b9c9d7.jpg">
-            <img src="https://hips.hearstapps.com/hmg-prod/images/easy-no-bake-desserts-oreo-pie-645d1a6b9c9d7.jpg" />
-        </a>
-        <a href="https://whatsgabycooking.com/wp-content/uploads/2020/07/WGC-Pizzookie-3-copy-819x1024.jpg">
-            <img src="https://whatsgabycooking.com/wp-content/uploads/2020/07/WGC-Pizzookie-3-copy-819x1024.jpg" />
-        </a>
-        <a href="https://images.squarespace-cdn.com/content/v1/627d1d66e49bbb1fa0b47e0e/1695173978933-T3D2XHLGK5MR61VNWHZR/Iba+Universe+Articles+Header+%282%29.png">
-            <img src="https://images.squarespace-cdn.com/content/v1/627d1d66e49bbb1fa0b47e0e/1695173978933-T3D2XHLGK5MR61VNWHZR/Iba+Universe+Articles+Header+%282%29.png" />
-        </a>
-        <a href="https://salimaskitchen.com/wp-content/uploads/2022/12/Puerto-Rican-Flan-Salimas-Kitchen-53.jpg">
-            <img src="https://salimaskitchen.com/wp-content/uploads/2022/12/Puerto-Rican-Flan-Salimas-Kitchen-53.jpg" />
-        </a>
-    </div>
-    <div id="gall">
         <a href="https://cdn.loveandlemons.com/wp-content/uploads/2021/06/summer-desserts.jpg">
             <img src="https://cdn.loveandlemons.com/wp-content/uploads/2021/06/summer-desserts.jpg" />
         </a>
